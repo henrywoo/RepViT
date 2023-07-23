@@ -113,3 +113,9 @@ If our code or models help your work, please cite our paper:
       primaryClass={cs.CV}
 }
 ```
+
+
+>>> from timm.models import create_model
+>>> from hiq.vis import print_model
+>>> model = create_model('repvit_m1')
+>>> print_model(model)

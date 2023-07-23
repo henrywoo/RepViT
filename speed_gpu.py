@@ -1,7 +1,6 @@
 import torch
 import time
 from timm import create_model
-import model
 import utils
 torch.autograd.set_grad_enabled(False)
 
