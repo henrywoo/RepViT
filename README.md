@@ -55,6 +55,12 @@ Tips: measure the throughput on GPU
 python speed_gpu.py --model repvit_m1
 ```
 
+Result On Tesla V100:
+
+```angular2html
+12:07 $ python speed_gpu.py --model repvit_m1
+repvit_m1 cuda:0 3767.5837485638444 images/s @ batch size 2048
+```
 
 ## ImageNet  
 
